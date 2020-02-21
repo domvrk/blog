@@ -17,4 +17,4 @@ after_success:
   provider: firebase
   token:
     secure: 1//0fENpYmpLVlZECgYIARAAGA8SNwF-L9Ir0E0sl7AJm0ObahlQuHS50yw7gm-4YmXlPB99IoiM2q5U7-Tu6ECyXz1l_UkRiL8igEI
-    project: "RAPP"
+    project: "rapp-b72c7"
