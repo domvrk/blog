@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+    - "12.13.0"
+script:
+    yarn build
+
+install:
+    - npm install -g firebase-tools
+    - npm install react-bootstrap bootstrap react-router-dom react-router
+
+after_success:
+    - firebase -deploy --token 1//0fENpYmpLVlZECgYIARAAGA8SNwF-L9Ir0E0sl7AJm0ObahlQuHS50yw7gm-4YmXlPB99IoiM2q5U7-Tu6ECyXz1l_UkRiL8igEI
