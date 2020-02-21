@@ -7,8 +7,9 @@ script:
 
 install:
   - npm i --global yarn
-  - npm install react react-scripts react-dom react-router react-router-dom react-bootstrap bootstrap
+  - npm install react react-scripts react-dom react-router react-router-dom react-bootstrap bootstrap jquery eslint-config-react-app tsutils
   - npm install -g firebase-tools
+  - npm audit fix
 
 
 after_success:
