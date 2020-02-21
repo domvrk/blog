@@ -5,9 +5,7 @@ script:
     yarn build
 
 install:
-    - npm install yarn
     - npm install -g firebase-tools
-    - npm install react react-dom react-bootstrap bootstrap react-router-dom react-router
 
 
 after_success:
