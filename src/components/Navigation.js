@@ -39,6 +39,8 @@ function Home() {
   return (
     <div>
       <h2>Home</h2>
+      <h3>test</h2>
+      <h3>test</h3>
     </div>
   );
 }
