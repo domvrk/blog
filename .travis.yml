@@ -1,20 +1,20 @@
-language: node_js
-node_js:
-    - "stable"
-
-script:
-    yarn build
-
-install:
-  - npm i --global yarn
-  - npm install react react-scripts react-dom react-router react-router-dom react-bootstrap bootstrap jquery eslint-config-react-app tsutils
-  - npm install -g firebase-tools
-  - npm audit fix
-
-
-after_success:
-  deploy:
-    provider: firebase
-    token:
-      secure: 1//0fENpYmpLVlZECgYIARAAGA8SNwF-L9Ir0E0sl7AJm0ObahlQuHS50yw7gm-4YmXlPB99IoiM2q5U7-Tu6ECyXz1l_UkRiL8igEI
-    project: "rapp-b72c7"
+# language: node_js
+# node_js:
+#     - "stable"
+#
+# script:
+#     yarn build
+#
+# install:
+#   - npm i --global yarn
+#   - npm install react react-scripts react-dom react-router react-router-dom react-bootstrap bootstrap jquery eslint-config-react-app tsutils
+#   - npm install -g firebase-tools
+#   - npm audit fix
+#
+#
+# after_success:
+#   deploy:
+#     provider: firebase
+#     token:
+#       secure: 1//0fENpYmpLVlZECgYIARAAGA8SNwF-L9Ir0E0sl7AJm0ObahlQuHS50yw7gm-4YmXlPB99IoiM2q5U7-Tu6ECyXz1l_UkRiL8igEI
+#     project: "rapp-b72c7"
