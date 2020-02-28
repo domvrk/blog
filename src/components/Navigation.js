@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 
+
 class Navigation extends React.Component {
   render() {
     return (
@@ -39,7 +40,7 @@ function Home() {
   return (
     <div>
       <h2>Home</h2>
-      
+
     </div>
   );
 }
